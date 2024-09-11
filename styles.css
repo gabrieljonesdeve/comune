@@ -252,9 +252,17 @@ footer {
 
 /* Effetto hover per il link */
 .blog-card-link:hover {
-    color: darkorange; /* Colore del testo al passaggio del mouse */
+    color: darkorange;
     border-color: darkorange;
 }
 
-
-
+/* Media query per dispositivi mobili */
+@media (max-width: 768px) {
+    .blog-card {
+        width: 100%; /* Le card occupano il 100% della larghezza su dispositivi mobili */
+    }
+    
+    .blog-card-group {
+        gap: 10px; /* Riduce lo spazio tra le card su dispositivi mobili */
+    }
+}
