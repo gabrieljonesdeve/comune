@@ -3,57 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GJD DOCS</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Fira Code', monospace;
-        }
-        header {
-            background-color: #f8f9fa;
-            padding: 20px;
-            text-align: center;
-        }
-        .document-list {
-            margin-top: 20px;
-        }
-        .document-item {
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background-color: #f8f9fa;
-        }
-    </style>
+    <title>Comune Rivoluzionario</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Header con logo e navigazione -->
+    <header>
+        <div class="logo">Comune Rivoluzionario</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servizi">Servizi</a></li>
+                <li><a href="#documenti">Documenti</a></li>
+                <li><a href="#giovani">Giovani</a></li>
+                <li><a href="#trasparenza">Trasparenza</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>GJD DOCS</h1>
-    <p>Tutti i documenti per il comune in un unico posto</p>
-</header>
-
-<div class="container document-list">
-    <h2>Documenti</h2>
-    <div class="document-item">
-        <h3>Proposta 1: Modulo di contatto per i giovani</h3>
-        <p><a href="documenti/proposta1.pdf" download>Scarica documento</a></p>
+    <!-- Sezione principale con immagine -->
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Benvenuti nella raccolta delle proposte giovani</h1>
+            <p>L'innovazione dei giovani a fontanafredda</p>
+        </div>
+      
+    </section>
+  <div class="header-yellow">
+    
+    <div class="container">
+          <div class="alert">
+        <strong>Si avvisa!</strong> Questo non è il sito ufficiale del comune, questo è un sito fornito da GJD con le proposte per il comune di fontanafredda.
     </div>
-    <div class="document-item">
-        <h3>Proposta 2: Progetto per una nuova piattaforma</h3>
-        <p><a href="documenti/proposta2.pdf" download>Scarica documento</a></p>
+  
+  </div>
     </div>
-    <!-- Aggiungi qui altri documenti -->
-</div>
+    <!-- Sezione Documenti -->
+    <section id="documenti" class="document-section">
+        <h2>Documenti Recenti</h2>
+        <div class="document-list">
+            <div class="document-item">
+                <h3>Elenco di tutte le proposte</h3>
+                <p>Consulta un intero documento con tutte le proposte inviate al comune di fontanafredda.</p>
+                <a href="comune.gjdev.it/documenti/proposte.pdf">Scarica PDF</a>
+            </div>
+            <div class="document-item">
+                <h3>Urbanistica di fontanafredda - è l'ora del cambiamento</h3>
+                <p>La proposta per il comune e la regione di modifica dell'urbanistica di fontanafredda.</p>
+                <a href="comune.gjdev.it/documenti/urbaniscica.pdf">Scarica PDF</a>
+            </div>
+            <div class="document-item">
+                <h3>Tessera giovani - l'innovazione è oggi, non ieri e non domani è ora!</h3>
+                <p>Scopri tutti i vantaggi della tessera giovani - la proposta inviata al comune di fontanafredda.</p>
+                <a href="comune.gjdev.it/documenti/tessera-giovani.pdf">Scarica PDF</a>
+            </div>
+        </div>
+    </section>
 
-<footer>
-    <p>© 2024 GJD DOCS - Tutti i diritti riservati</p>
-</footer>
+    <!-- Sezione Giovani -->
+    <section id="giovani" class="youth-section">
+        <h2>Spazio Giovani</h2>
+        <p>Hai idee o progetti per migliorare la tua città? Proponi le tue iniziative qui! Scrivi a <a href="mailto:giovani@comune.gjdev.it">giovani@comune.gjdev.it</a> o compila il modulo.</p>
+        <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSd7kRqDHX7SM55_G3VqdDjyq7ZPGtQbtXlcnZJUSqdcBGj_Pw/viewform?usp=sf_link'">Invia una proposta</button>
+    </section>
 
-<!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Sezione Trasparenza -->
+    <section id="trasparenza" class="transparency-section">
+        <h2>Trasparenza e Amministrazione Aperta</h2>
+        <p>Scopri i bilanci, le delibere e tutte le informazioni sull'amministrazione trasparente.</p>
+        <ul>
+            <li><a href="#">Bilancio 2023</a></li>
+            <li><a href="#">Delibere e Atti</a></li>
+            <li><a href="#">Appalti e Gare</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Comune Rivoluzionario. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
