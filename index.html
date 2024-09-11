@@ -6,12 +6,15 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://italia.github.io/bootstrap-italia/dist/css/bootstrap-italia.min.css?202408051433" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
-
-        <style>
+    <style>
         .logo-img {
-            max-height: 50px; /* Adjust as needed */
+            max-height: 80px; /* Adjusted size */
             width: auto;
+            margin-right: 15px; /* Space between logo and title */
+        }
+        .it-header-center-content-wrapper {
+            display: flex;
+            align-items: center;
         }
     </style>
 </head>
@@ -22,9 +25,6 @@
       <div class="row">
         <div class="col-12">
           <div class="it-header-slim-wrapper-content d-flex align-items-center justify-content-between">
-            <a class="navbar-brand" href="https://gata.gjdev.it">
-              <img src="Black_Beige_Circle_Y2K_Illustrative_Class_Logo-removebg-preview.png" alt="Logo" class="img-fluid" style="max-height: 50px;">
-            </a>
             <!-- Other content -->
             <div class="it-header-slim-right-zone">
               <div class="nav-item dropdown">
@@ -42,17 +42,14 @@
       <div class="row">
         <div class="col-12">
           <div class="it-header-center-content-wrapper">
-            <div class="it-brand-wrapper">
-              <a href="#">
-                <svg class="icon" aria-hidden="true">
-                  <use href="/bootstrap-italia/dist/svg/sprites.svg#it-pa"></use>
-                </svg>
-                <div class="it-brand-text">
-                  <div class="it-brand-title">Aurea</div>
-                  <div class="it-brand-tagline d-none d-md-block">Gabriel Jones political web site</div>
-                </div>
-              </a>
-            </div>
+            <!-- Logo -->
+            <a href="#" class="d-flex align-items-center">
+              <img src="path/to/your-logo.png" alt="Logo" class="logo-img">
+              <div class="it-brand-text">
+                <div class="it-brand-title">Aurea</div>
+                <div class="it-brand-tagline d-none d-md-block">Gabriel Jones political web site</div>
+              </div>
+            </a>
             <div class="it-right-zone">
             </div>
           </div>
@@ -81,85 +78,8 @@
         <!--end card-->
       </div>
     </div>
-    <h1>Blog</h1>
-    <section id="blog-cards" class="blog-card-group">
-    <div class="blog-card">
-        <img src="https://img.freepik.com/foto-premium/i-giovani-hanno-tirato-le-corde-tra-loro-esercizio-di-team-building-spirito-di-squadra-rafforzare-le-relazioni-di-gruppo-unita-tra-i-team-di-persone_139914-198.jpg" alt="Immagine Blog 1">
-        <div class="blog-card-content">
-            <h3>Giornata dello sport</h3>
-            <a href="X1R9A2B.html" class="blog-card-link">Leggi di più</a>
-        </div>
-    </div>
-    <div class="blog-card">
-        <img src="https://prd-images2-gazzanet.gazzettaobjects.it/GIrSJ8R2LrF4lbtBqAMaD7wURyc=/1200x627/smart/www.padovasport.tv/assets/uploads/202301/77d0b87c7c8db70d7eb49ca3e2c87ddc.jpg" alt="Immagine Blog 2">
-        <div class="blog-card-content">
-            <h3>Nessuna attività sportiva gratuita</h3>
-            <a href="4D5E7F8G.html" class="blog-card-link">Leggi di più</a>
-        </div>
-    </div>
-    <div class="blog-card">
-        <img src="https://scontent.fpow1-2.fna.fbcdn.net/v/t39.30808-6/434733076_18317174878121114_1208813989149006081_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=uBM1_D105m4Q7kNvgEOEn4D&_nc_ht=scontent.fpow1-2.fna&_nc_gid=AjTCY4QIf-AsduBhQwGAckX&oh=00_AYDdV-qleAROBGFDJUNzyS91CUZK8Rn0t1nvQArUrQr7Rg&oe=66E7491B" alt="Immagine Blog 3">
-        <div class="blog-card-content">
-            <h3>I giovani di fontanafredda, i più esclusi del momento... Che fare?</h3>
-            <a href="J3K2L9M.html" class="blog-card-link">Leggi di più</a>
-        </div>
-    </div>
-</section>
-<section id="giovani" class="youth-section">
-    <h2>Spazio Giovani</h2>
-    <p>Hai idee o progetti per migliorare la tua città? Proponi le tue iniziative qui! Scrivi a <a href="mailto:giovani@comune.gjdev.it">giovani@comune.gjdev.it</a> o compila il modulo.</p>
-    <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSd7kRqDHX7SM55_G3VqdDjyq7ZPGtQbtXlcnZJUSqdcBGj_Pw/viewform?usp=sf_link'">Invia una proposta</button>
-</section>
-
-<section id="documenti" class="document-section">
-    <h2>Documenti Recenti</h2>
-    <div class="document-list">
-        <div class="document-item">
-            <h3>Elenco di tutte le proposte</h3>
-            <p>Consulta un intero documento con tutte le proposte inviate al comune di fontanafredda.</p>
-            <a href="documenti/proposte/Raccolta delle migliori proposte per il comune (3).pdf">Scarica PDF</a>
-        </div>
-        <div class="document-item">
-            <h3>Urbanistica di fontanafredda - è l'ora del cambiamento</h3>
-            <p>La proposta per il comune e la regione di modifica dell'urbanistica di fontanafredda.</p>
-            <a href="/documenti/urbaniscica.html">Scarica PDF - inattivo per manutenzione</a>
-        </div>
-        <div class="document-item">
-            <h3>Tessera giovani - l'innovazione è oggi, non ieri e non domani è ora!</h3>
-            <p>Scopri tutti i vantaggi della tessera giovani - la proposta inviata al comune di fontanafredda.</p>
-            <a href="documenti/karta-giovani/Karta Giovani (1).pdf">Scarica PDF</a>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
