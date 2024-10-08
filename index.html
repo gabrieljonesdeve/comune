@@ -105,7 +105,6 @@
   <div class="header-yellow">
       <div class="container">
           <div class="alert">
-        <strong>Si avvisa!</strong> Questo non è il sito ufficiale del comune, questo è un sito fornito da GJD con le proposte per il comune di fontanafredda.
     </div>
     </div>
     </div>
@@ -130,7 +129,7 @@
                 <div class="document-item">
                 <h3>Elenco di tutte le proposte</h3>
                 <p>Consulta un intero documento con tutte le proposte inviate al comune di fontanafredda.</p>
-                <a href="documenti/proposte/Raccolta delle migliori proposte per il comune (3).pdf">Scarica PDF</a>
+                <a href="">Scarica PDF</a>
             </div>
             <div class="document-item">
                 <h3>Urbanistica di fontanafredda - è l'ora del cambiamento</h3>
@@ -155,5 +154,209 @@
     </footer>
 
     <script src="scripts.js"></script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giovani - Comune di [Nome Comune]</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+
+        header {
+            background: #0056b3; /* Blu scuro */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10px;
+        }
+
+        .logo-img {
+            width: 80px;
+            height: auto;
+            margin-right: 15px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            letter-spacing: 1px;
+            font-weight: bold;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-weight: 500;
+        }
+
+        nav ul li a:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
+
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 20px auto;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #0056b3; /* Blu scuro */
+            margin-bottom: 15px;
+            font-weight: bold;
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 5px;
+        }
+
+        section {
+            margin-bottom: 40px;
+        }
+
+        section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        section ul li {
+            margin: 10px 0;
+        }
+
+        section ul li a {
+            color: #0056b3; /* Blu scuro */
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        section ul li a:hover {
+            color: #003366; /* Blu scuro più intenso */
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #0056b3; /* Blu scuro */
+            color: #ffffff;
+            margin-top: 20px;
+            border-radius: 0 0 8px 8px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .highlight {
+            background: #d1ecf1; /* Blu chiaro */
+            border-left: 4px solid #0056b3; /* Blu scuro */
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://urbis.gjdev.it/img/icona.png" alt="Logo Comune" class="logo-img">
+            <h1>Giovani - Comune di [Nome Comune]</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#benvenuto">Benvenuto</a></li>
+                <li><a href="#risorse">Risorse Utili</a></li>
+                <li><a href="#contatti">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="benvenuto">
+            <h2>Benvenuto!</h2>
+                <h2>Spazio Giovani</h2>
+                    <p>Hai idee o progetti per migliorare la tua città? Proponi le tue iniziative qui! Scrivi a <a href="mailto:giovani@comune.gjdev.it">giovani@comune.gjdev.it</a> o compila il modulo.</p>
+                <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSd7kRqDHX7SM55_G3VqdDjyq7ZPGtQbtXlcnZJUSqdcBGj_Pw/viewform?usp=sf_link'">Invia una proposta</button>
+            <div class="highlight">
+                <strong>Si avvisa!</strong> Questo non è il sito ufficiale del comune, questo è un sito fornito da GJD con le proposte per il comune di fontanafredda.
+            </div>
+        </section>
+
+        <section id="risorse">
+            <h2>Risorse Utili</h2>
+            <ul>
+                <li><a href="documenti/proposta-assessore/index.html">Proposta assessore giovanile</a></li>
+                <li><a href="documenti/proposte/Raccolta delle migliori proposte per il comune (3).pdf">Tutte le proposte</a></li>
+                <li><a href="#">Corsi e workshop</a></li>
+                <li><a href="#">Supporto psicologico</a></li>
+                <li><a href="#">Consigli per la carriera</a></li>
+            </ul>
+        </section>
+
+        <section id="contatti">
+            <h2>Contatti</h2>
+            <p>Per maggiori informazioni, contatta il nostro assessorato per i giovani via email: <a href="mailto:giovani@comune.[nome].it">giovani@comune.[nome].it</a></p>
+            <p>Seguici sui nostri social: <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Comune di [Nome Comune]. Tutti i diritti riservati.</p>
+    </footer>
 </body>
 </html>
